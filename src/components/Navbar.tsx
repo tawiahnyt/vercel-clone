@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
         isScrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto px-4 sm:px-6 lg:px-64">
+      <div className="mx-auto px-4 sm:px-6 max-w-[90rem] px-auto">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 text-white flex items-center">
@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
               </svg>
               <h1 className="text-2xl font-medium tracking-wide">Vercel</h1>
             </div>
-            <div className="hidden md:block">
+            <div className="hidden lg:flex">
               <div className="ml-10 flex items-baseline space-x-4">
                 <div className="relative group flex">
                   {navItems.map((item, index) => (
@@ -95,14 +95,14 @@ const Navbar: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden lg:flex">
             <div className="ml-4 flex items-center md:ml-6 space-x-2">
               <Button className="px-3 py-1 rounded-md" text="Log In" />
               <Button className="px-3 py-1 rounded-md" text="Contact" />
               <Button white className="px-3 py-1 rounded-md" text="Sign Up" />
             </div>
           </div>
-          <div className="-mr-2 flex md:hidden">
+          <div className="-mr-2 flex lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none"
@@ -119,7 +119,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-vercel-gray-800">
+        <div className="lg:hidden bg-vercel-gray-800">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
               href="#_"
