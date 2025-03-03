@@ -1,26 +1,30 @@
 /** @format */
 
 import {
-  Monitor,
-  Zap,
-  Settings,
-  Globe,
-  BarChart2,
+  Eye,
+  Brain,
+  Cpu,
+  Layers,
+  Search,
   Shield,
   Code,
-  RefreshCw,
-  Box,
-  ShoppingBag,
-  TrendingUp,
-  Layers,
-  Edit2,
+  Zap,
+  Package,
+  Smartphone,
   ShoppingCart,
-  Hammer,
-  FileText,
+  Megaphone,
+  Cloud,
+  Paintbrush,
+  Book,
+  ShoppingBag,
+  FilePlus,
   BookOpen,
   Users,
+  UserCheck,
   Edit,
-  Briefcase,
+  GitMerge,
+  PenTool,
+  AppWindow,
 } from "lucide-react";
 
 export const navItems = [
@@ -33,12 +37,12 @@ export const navItems = [
           {
             heading: "Previews",
             subHeading: "Helping teams ship 6x faster",
-            icon: Monitor,
+            icon: Eye,
           },
           {
             heading: "AI",
             subHeading: "Powering breakthroughs",
-            icon: Zap,
+            icon: Brain,
           },
         ],
       },
@@ -48,17 +52,17 @@ export const navItems = [
           {
             heading: "Fluid compute",
             subHeading: "Servers, in serverless form",
-            icon: Settings,
+            icon: Cpu,
           },
           {
             heading: "Rendering",
             subHeading: "Fast, scalable, and reliable",
-            icon: Globe,
+            icon: Layers,
           },
           {
             heading: "Observability",
             subHeading: "Trace every step",
-            icon: BarChart2,
+            icon: Search,
           },
           {
             heading: "Security",
@@ -78,12 +82,12 @@ export const navItems = [
           {
             heading: "Turborepo",
             subHeading: "Speed with Enterprise scale",
-            icon: RefreshCw,
+            icon: Zap,
           },
           {
             heading: "ALSDK",
             subHeading: "The Al Toolkit for TypeScript",
-            icon: Box,
+            icon: Package,
           },
         ],
       },
@@ -98,27 +102,27 @@ export const navItems = [
           {
             heading: "Al Apps",
             subHeading: "Deploy at the speed of Al",
-            icon: Zap,
+            icon: Smartphone,
           },
           {
             heading: "Composable Commerce",
             subHeading: "Power storefronts that convert",
-            icon: ShoppingBag,
+            icon: ShoppingCart,
           },
           {
             heading: "Marketing Sites",
             subHeading: "Launch campaigns fast",
-            icon: TrendingUp,
+            icon: Megaphone,
           },
           {
             heading: "Multi-tenant Platforms",
             subHeading: "Scale apps with one codebase",
-            icon: Layers,
+            icon: Cloud,
           },
           {
             heading: "Web Apps",
             subHeading: "Ship features, not infrastructure",
-            icon: Monitor,
+            icon: AppWindow,
           },
         ],
       },
@@ -128,12 +132,12 @@ export const navItems = [
           {
             heading: "Platform Engineers",
             subHeading: "Automate away repetition",
-            icon: Hammer,
+            icon: PenTool,
           },
           {
             heading: "Design Engineers",
             subHeading: "Deploy for every idea",
-            icon: Edit2,
+            icon: Paintbrush,
           },
         ],
       },
@@ -148,17 +152,17 @@ export const navItems = [
           {
             heading: "Resource Center",
             subHeading: "Today's best practices",
-            icon: Box,
+            icon: Book,
           },
           {
             heading: "Marketplace",
             subHeading: "Extend and automate workflows",
-            icon: ShoppingCart,
+            icon: ShoppingBag,
           },
           {
             heading: "Templates",
             subHeading: "Jumpstart app development",
-            icon: FileText,
+            icon: FilePlus,
           },
           {
             heading: "Guides",
@@ -178,7 +182,7 @@ export const navItems = [
           {
             heading: "Customers",
             subHeading: "Trusted by the best teams",
-            icon: Users,
+            icon: UserCheck,
           },
           {
             heading: "Blog",
@@ -188,12 +192,12 @@ export const navItems = [
           {
             heading: "Changelog",
             subHeading: "See what shipped",
-            icon: FileText,
+            icon: GitMerge,
           },
           {
             heading: "Press",
             subHeading: "Read the latest news",
-            icon: Briefcase,
+            icon: Megaphone,
           },
         ],
       },
