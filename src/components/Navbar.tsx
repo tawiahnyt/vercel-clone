@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Menu, X, ChevronDown, ChevronUp } from "lucide-react";
 import { navItems } from "../constant/NavItems";
 import Button from "./Button";
+import Dropdown from "./Dropdown";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -85,7 +86,7 @@ const Navbar: React.FC = () => {
                         item.navTitle &&
                         openDropdownIndex === index && (
                           <div className="absolute left-0 mt-2">
-                            {/* <Dropdown content={item.navContents} /> */}
+                            <Dropdown content={item.navContents} />
                           </div>
                         )}
                     </div>
