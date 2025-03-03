@@ -67,14 +67,18 @@ const Navbar: React.FC = () => {
                           {typeof item === "object" && item.navTitle ? (
                             <div className="relative group flex flex-col items-center justify-center px-2">
                               <ChevronDown
-                              className={`h-3 w-4 absolute transition-opacity duration-200 ${
-                                openDropdownIndex === index ? "opacity-0" : "opacity-100"
-                              }`}
+                                className={`h-3 w-4 absolute transition-opacity duration-200 ${
+                                  openDropdownIndex === index
+                                    ? "opacity-0"
+                                    : "opacity-100"
+                                }`}
                               />
                               <ChevronUp
-                              className={`h-3 w-4 absolute transition-opacity duration-200 ${
-                                openDropdownIndex === index ? "opacity-100" : "opacity-0"
-                              }`}
+                                className={`h-3 w-4 absolute transition-opacity duration-200 ${
+                                  openDropdownIndex === index
+                                    ? "opacity-100"
+                                    : "opacity-0"
+                                }`}
                               />
                             </div>
                           ) : (
@@ -97,9 +101,9 @@ const Navbar: React.FC = () => {
           </div>
           <div className="hidden lg:flex">
             <div className="ml-4 flex items-center md:ml-6 space-x-2">
-              <Button className="px-3 py-1 rounded-md" text="Log In" />
-              <Button className="px-3 py-1 rounded-md" text="Contact" />
-              <Button white className="px-3 py-1 rounded-md" text="Sign Up" />
+              <Button className="px-3 py-2 rounded-md" text="Log In" />
+              <Button className="px-3 py-2 rounded-md" text="Contact" />
+              <Button white className="px-3 py-2 rounded-md" text="Sign Up" />
             </div>
           </div>
           <div className="-mr-2 flex lg:hidden">
@@ -121,6 +125,14 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="lg:hidden bg-vercel-gray-800">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div className="w-full flex flex-col space-y-3">
+              <Button className="px-3 py-2 rounded-md text-center flex" text="Log In" />
+              <Button
+                white
+                className="px-3 py-2 rounded-md flex text-center"
+                text="Sign Up"
+              />
+            </div>
             <a
               href="#_"
               className="text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -151,22 +163,6 @@ const Navbar: React.FC = () => {
             >
               Resources
             </a>
-          </div>
-          <div className="pt-4 pb-3 border-t border-vercel-gray-700">
-            <div className="px-2 space-y-1">
-              <a
-                href="#_"
-                className="text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Log in
-              </a>
-              <a
-                href="#_"
-                className="button-primary ml-4 px-4 py-2 rounded-md text-sm font-medium"
-              >
-                Sign Up
-              </a>
-            </div>
           </div>
         </div>
       )}

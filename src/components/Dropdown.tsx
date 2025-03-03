@@ -29,8 +29,8 @@ const Dropdown = ({ content }: DropdownProps) => {
                 item.heading && (
                   <div key={item.heading}>
                     <div className="flex items-start space-x-3 group cursor-pointer">
-                      <div className="flex-shrink-0 p-2 bg-black rounded-md border-neutral-500 border">
-                        <item.icon className="w-5 h-5" />
+                      <div className="flex-shrink-0 p-2 bg-black rounded-md border-[#CCCCCC]/20 border">
+                        <item.icon className="w-5 h-5 text-white" />
                       </div>
                       <div>
                         <h3 className="font-medium text-sm group-hover:text-neutral-100 transition-colors">
