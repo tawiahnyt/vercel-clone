@@ -135,31 +135,31 @@ const Navbar: React.FC = () => {
             </div>
             <a
               href="#_"
-              className="text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white block px-3 py-2 rounded-md hover:bg-[#1F1F1F]"
             >
               Features
             </a>
             <a
               href="#_"
-              className="text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white block px-3 py-2 rounded-md hover:bg-[#1F1F1F]"
             >
               Templates
             </a>
             <a
               href="#_"
-              className="text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white block px-3 py-2 rounded-md hover:bg-[#1F1F1F]"
             >
               Enterprise
             </a>
             <a
               href="#_"
-              className="text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white block px-3 py-2 rounded-md hover:bg-[#1F1F1F]"
             >
               Pricing
             </a>
             <a
               href="#_"
-              className="text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white block px-3 py-2 rounded-md hover:bg-[#1F1F1F]"
             >
               Resources
             </a>
