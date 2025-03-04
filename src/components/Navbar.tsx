@@ -36,7 +36,8 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 text-white flex items-center">
-              <svg
+              <img src="/vercel-dark.png" alt="vercel logo" className="h-5 w-24 cursor-pointer" />
+              {/* <svg
                 width="60"
                 height="50"
                 viewBox="0 0 76 65"
@@ -45,8 +46,7 @@ const Navbar: React.FC = () => {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#FFFFFF" />
-              </svg>
-              <h1 className="text-2xl font-medium tracking-wide">Vercel</h1>
+              </svg> */}
             </div>
             <div className="hidden lg:flex">
               <div className="ml-10 flex items-baseline space-x-4">
