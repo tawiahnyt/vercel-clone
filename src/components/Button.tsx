@@ -1,5 +1,7 @@
+import { ReactNode } from 'react';
+
 interface ButtonProps {
-  text: string;
+  text: ReactNode;
   white?: boolean;
   className: string;
 }
