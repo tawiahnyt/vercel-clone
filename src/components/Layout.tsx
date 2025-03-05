@@ -9,7 +9,6 @@ import {
   RotateCcw,
   ShieldCheck,
   Terminal,
-  Triangle,
 } from "lucide-react";
 import Button from "./Button";
 
