@@ -1,6 +1,5 @@
 import  Layout from "./components/Layout"
 import Footer from "./components/Footer"
-import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <>
       <Navbar />
       <Layout />
-      <Hero />
       <Footer />
     </>
   )
